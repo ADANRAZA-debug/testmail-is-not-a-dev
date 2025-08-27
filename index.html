@@ -3,11 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>test.is-not-a.dev</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    a {
+      color: #ffd369;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
 <body>
-  <h1>✅ Domain is working!</h1>
-  <p>This subdomain <code>test.is-not-a.dev</code> is registered via 
-     <a href="https://github.com/open-domains/register">Open Domains</a>.</p>
-  <p>Purpose: security testing & proof-of-concept for bug bounty.</p>
+  <div class="card">
+    <h1>✅ test.is-not-a.dev</h1>
+    <p>This subdomain is registered via 
+      <a href="https://github.com/open-domains/register">Open Domains</a>.
+    </p>
+    <p>Purpose: <strong>Email forwarding & security testing</strong>.</p>
+    <p>Website hosted with <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </div>
 </body>
 </html>
